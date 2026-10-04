@@ -1,0 +1,22 @@
+# Parollar və gizli ayarlar
+.env
+*.env
+!.env.example
+
+# Airflow logları
+airflow/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
